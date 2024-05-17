@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Pessoal - Gabriel Dantas</title>
+    <!-- Puxar o CSS do arquivo estilo.css -->
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- Cabeçalho identificando o CV do Aluno-->
+    <header>
+        <h1>Gabriel Dantas RU 4475593</h1>
+    </header>
+    <!-- Menu de navegação com os 4 links -->
+    <nav>
+        <!-- Utilização de referênciação ao ID das sections -->
+        <a href="#sobre">Sobre Mim</a>
+        <a href="#experiencias">Experiências</a>
+        <a href="#certificacoes">Certificações</a>
+        <a href="#habilidades">Habilidades</a>
+    </nav>
+    <!-- Seção Sobre -->
+    <section id="sobre">
+        <h2>1. Sobre Mim</h2>
+        <p>Olá,eu sou o Gabriel. Aluno de Engenharia de Software na UNINTER, tenho 25 anos e sou de São Luís do Maranhão. 
+        <br><br>
+        Trabalho atualmente homeoffice como especialista de Salesforce para uma empresa de São Paulo chamada Afya Educação Médica.
+        E no meu tempo livre eu gosto de jogar video games e assistir anime. Uma curiosidade sobre mim é que eu adoro animais e tenho mais de 30 animais em casa. (Meus pais são responsáveis por uma ONG) </p>
+    </section>
+    <!-- Seção com as experiências-->
+    <section id="experiencias">
+        <h2>2. Experiências</h2>
+        <p>
+            <b>Analista de Growth (V4 Company - 2022)</b>
+            <br>
+            Atuação como Analista de Growth para key accounts da V4 Company, realizando análise de dados de Marketing e de Performance, uma assessoria de marketing focada em construir e otimizar o processo de vendas através do digital. Trabalhando com contas de diversos nichos: Ecommerce, Imobiliário, B2B, Educação, Varejo e Moda Feminina.
+            <br>
+            Principais atividades:
+            <ul>
+                <li>Garantia de qualidade das integrações das informações e da consistência dos dados automatizados, com monitoramento, atuação corretiva e melhoria contínua dos processos.</li>
+                <li>Mapeamento e acompanhamento de KPIs de cada negócio. A fim de extrair insights de negócios.</li>
+                <li>Desenvolvimento e implementação de dashboards, relatórios e querys como entregas dos produtos de BI.</li>
+            </ul>
+            <br><br>
+            <b>Coordenador de Martech (UNDB - 2023)</b>
+            <br>
+            Atuação como Coordenador de Martech na área de Growth Marketing. Focado em analisar os dados, performance e gerar insights relevantes sobre as estratégias de marketing aplicada aos canais digitais, munindo os principais stakeholders com informações relevantes.
+            <br>
+            Principais atividades:
+            <ul>
+                <li>Geração, extração e manipulação de dados obtidos via SQL, Hubspot, Banco de Dados, Google Analytics, Facebook Ads e Google Ads.</li>
+                <li>Planejamento de arquitetura de dados necessárias para a coleta de informações.</li>
+                <li>Construção de dashboards avançados em ferramenta de Data Viz como Power BI para acompanhamento dos principais indicadores de negócio, com automatização de rotinas que permitam a identificação rápida de oportunidades e ameaças.</li>
+            </ul>
+            <br><br>
+            <b>Especialista em Salesforce (V4 Company - 2024)</b>
+            <br>
+            Atuação como Especialista em Salesforce, focado em Marketing Automation na Afya, liderando a automatização e otimização dos processos de marketing, garantindo a qualidade, integridade de dados e eficácia das ações.
+            <br>
+            Em geral, realizo a configuração de chamadas de API para criações automatizadas de gerações de oportunidades, crio relatórios, estruturo fluxo de dados entre landing pages, ferramentas de marketing e Salesforce. E utilizo do Sales Cloud, Marketing Cloud, Insider, Power BI, Google Sheets, Excel, SQL, Python e Postman para estruturações, integrações e análise de KPIs.
+            <br>
+            Principais Destaques:
+            <ul>
+                <li>Desenvolvimento de uma metodologia de acompanhamento e elaboração de relatórios gerenciais para área de inbound marketing, tornando-se um dos principais KPIs da área de Growth Marketing.</li>
+                <li>Implementação de estratégias que resultaram em um aumento significativo de faturamento, alcançando aumentos de até R$ 6M em determinados meses, por meio da elevação da taxa de conversão de leads de origens específicas.</li>
+                <li>Validação e acompanhamento de estratégias multicanais que geraram um aumento médio de 25% na taxa de conversão de leads em vendas, provenientes de determinadas origens.</li>
+            </ul>
+        </p>
+    </section>
+    <!-- Seção com as minhas certificações -->
+    <section id="certificacoes">
+        <h2>3. Certificações</h2>
+        <p>
+            <ol>
+                <li>Salesforce Certified Associate</li>
+                <li>AWS Certified Cloud Practitioner</li>
+            </ol>
+        </p>
+    </section>
+    <!-- Seção com minhas habilidades -->
+    <section id="habilidades">
+        <h2>4. Habilidades</h2>
+        <p>
+            <ul>
+                <li>CRM e Automações de Marketing: Salesforce, Hubspot, RD Station, Exact Sales, Pipedrive, Active Campaign e Insider</li>
+                <li>Ferramentas de Análise: Power BI, Data Studio, SQL, Python e Excel</li>
+                <li>Conhecimento de Ferramentas em Cloud: Sales Cloud, Marketing Cloud, AWS e GCP</li>
+            </ul>
+        </p>
+    </section>
+        <!-- Formulário de Contato -->
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" pattern="[0-9]{2}[0-9]{4,5}[0-9]{4}" required><br><br>
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+</body>
+</html>

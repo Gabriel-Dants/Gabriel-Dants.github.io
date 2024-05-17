@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+}
+nav a:hover {
+    background-color: #ddd;
+}
+section {
+    padding: 20px;
+}
+h2 {
+    color: #333;
+}
+
+/* Estilos para o formulário de contato */
+#contato {
+    text-align: center;
+    margin: 50px auto; /* Centraliza o formulário horizontalmente */
+    max-width: 600px; /* Define a largura máxima do formulário */
+    padding: 20px;
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    background-color: #f4f4f4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+}
+
+#contato h2 {
+    margin-bottom: 20px;
+}
+
+#contato form {
+    text-align: left;
+}
+
+#contato label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contato input[type="text"],
+#contato input[type="email"],
+#contato input[type="tel"],
+#contato textarea {
+    width: calc(100% - 20px); /* Subtrai o padding para ajustar o tamanho */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#contato textarea {
+    height: 100px; /* Altura fixa para a área de texto */
+}
+
+#contato input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contato input[type="submit"]:hover {
+    background-color: #555;
+}
